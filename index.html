@@ -9,12 +9,16 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+     
     }
 
     body {
+      
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpcPp-7TpoTZVx9e0c8UKNiTmi9fVLUx5PRA&s'); /* Reemplaza con la ruta de tu imagen */
+   background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   background-position: center; /* Centra la imagen */
+   background-repeat: no-repeat; /* Evita que la imagen se repita */
       font-family: 'Open Sans', sans-serif;
-      color: #333;
-      background-color: #f4f4f4;
       line-height: 1.6;
     }
 
@@ -26,21 +30,27 @@
 
     /* Header */
     header.main-header {
-      background-color: #1f2d3d;
-      color: #fff;
+      background-color: #182633;
+      color: #fdf907;
       padding: 20px 0;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+      background-image: url('https://www.innovanzaasesores.com/wp-content/uploads/ASESORIA-JURIDICA.jpg'); /* Reemplaza con la ruta de tu imagen */
+   background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   background-position: center; /* Centra la imagen */
+   background-repeat: no-repeat; /* Evita que la imagen se repita */
     }
 
     header .logo h1 {
-      font-size: 2.5em;
-      color: #ffcc00;
-      font-weight: bold;
+      font-size: 2.8em;
+      color: #f4b400;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
     }
 
     header .logo p {
-      font-size: 1.3em;
-      color: #bbb;
+      font-size: 1.2em;
+      color: #000000;
       margin-top: 5px;
     }
 
@@ -49,88 +59,108 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
-    }
-
-    nav.main-nav ul li {
-      margin-left: 30px;
+      gap: 25px;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
     }
 
     nav.main-nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      padding: 10px 15px;
-      border-radius: 5px;
-      transition: background-color 0.3s ease, transform 0.2s;
+      color: #636100;
+      text-decoration: moccasin;
+      padding: 10px 20px;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+      font-weight: 500;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
     }
 
     nav.main-nav ul li a:hover {
-      background-color: #ffcc00;
-      transform: translateY(-2px);
+      background-color: #f4b400;
+      color: #182633;
+      transform: scale(1.05);
     }
 
     /* Main Section */
     main {
-      padding: 40px 0;
-      background-color: #fff;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-      border-radius: 8px;
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNMoLaFtLDSmGmH-6c1MftrkgNZmr2xSErpg&s'); /* Reemplaza con la ruta de tu imagen */
+   background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   background-position: center; /* Centra la imagen */
+   background-repeat: no-repeat; /* Evita que la imagen se repita */
+      padding: 60px 0;
+      background-color: #ffffff;
+      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
+      border-radius: 12px;
+      overflow: hidden;
     }
 
     .section {
       text-align: center;
       margin-bottom: 60px;
-      padding: 40px 20px;
-      border: 1px solid #eee;
-      border-radius: 10px;
-      background-color: #f9f9f9;
-      transition: transform 0.3s, box-shadow 0.3s;
+      padding: 45px 25px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      background-color: #ffa600c4;
+      transition: all 0.4s ease;
     }
 
     .section:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+      transform: translateY(-8px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
     }
 
     .section h2 {
-      font-size: 2.5em;
-      color: #1f2d3d;
-      margin-bottom: 20px;
+      font-size: 2.6em;
+      color: #182633;
+      margin-bottom: 25px;
+      font-weight: 700;
     }
 
     .section p {
-      font-size: 1.2em;
-      color: #555;
-      margin: 20px 0;
+      font-size: 1.15em;
+      color: #000000;
+      margin: 25px 0;
+      line-height: 1.8;
+    }
+
+    .section ul {
+      text-align: left;
+      margin-top: 20px;
+      font-size: 1.15em;
+      color: #333;
+      line-height: 1.8;
     }
 
     button, .button {
-      background-color: #ffcc00;
-      color: #1f2d3d;
-      padding: 12px 25px;
+      background-color: #f4b400;
+      color: #182633;
+      padding: 15px 30px;
       border: none;
-      border-radius: 5px;
+      border-radius: 6px;
       cursor: pointer;
       text-decoration: none;
       font-size: 1.1em;
       transition: background-color 0.3s ease, transform 0.2s;
+      font-weight: 600;
     }
 
     button:hover, .button:hover {
-      background-color: #4a90e2;
-      transform: translateY(-2px);
+      background-color: #3a9bdc;
+      transform: scale(1.05);
     }
 
     /* Footer */
     footer {
-      background-color: #1f2d3d;
-      color: #fff;
+      background-color: #182633;
+      color: #ffffff;
       text-align: center;
-      padding: 20px 0;
+      padding: 25px 0;
     }
 
     footer p {
       margin: 0;
       font-size: 0.9em;
+      color: #c2c9d3;
     }
 
     /* Responsive */
@@ -141,11 +171,23 @@
       }
 
       nav.main-nav ul li {
-        margin-left: 0;
-        margin-bottom: 10px;
+        margin: 0 0 15px;
+      }
+      li::before {
+      content: "";
+      color: #4a90e2;
+      margin-right: 10px;
+    }
+      .section h2 {
+        font-size: 2em;
+      }
+
+      .section p {
+        font-size: 1em;
       }
     }
-  </style>
+</style>
+
 </head>
 <body>
   <header class="main-header">
@@ -156,14 +198,14 @@
       </div>
       <nav class="main-nav">
         <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="servicios.html">Servicios</a></li>
-          <li><a href="inversiones-capital.html">Inversiones</a></li>
-          <li><a href="asesoria.html">Asesoría</a></li>
-          <li><a href="consultoria.html">Consultoría</a></li>
-          <li><a href="otros-servicios.html">Otros Servicios</a></li>
-          <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="index.html">🏠 Inicio</a></li>
+          <li><a href="servicios.html">🛠️ Servicios</a></li>
+          <li><a href="inversiones-capital.html">💰 Inversiones</a></li>
+          <li><a href="asesoria.html">📈 Asesoría</a></li>
+          <li><a href="consultoria.html">📑 Consultoría</a></li>
+          <li><a href="otros-servicios.html">🔍 Otros Servicios</a></li>
+          <li><a href="sobre-nosotros.html">👥 Sobre Nosotros</a></li>
+          <li><a href="contacto.html">📞 Contacto</a></li>
         </ul>
       </nav>
     </div>
@@ -172,7 +214,7 @@
   <main>
     <section id="intro" class="section">
       <div class="container">
-        <h2>Asesoría y Consultoría Integral</h2>
+        <h2>🔹 Asesoría y Consultoría Integral</h2>
         <p>Ofrecemos servicios de consultoría en áreas de inversiones, capital, derecho penal, laboral, contabilidad, y más.</p>
         <a href="servicios.html" class="button">Ver Servicios</a>
       </div>
@@ -180,36 +222,34 @@
 
     <section id="expertise" class="section">
       <div class="container">
-        <h2>Nuestra Experiencia</h2>
+        <h2>👔 Nuestra Experiencia</h2>
         <p>Contamos con un equipo de expertos en diversas áreas, listos para ayudar a tu empresa a alcanzar su máximo potencial.</p>
       </div>
     </section>
 
     <section id="mission" class="section">
       <div class="container">
-        <h2>Nuestra Misión</h2>
-        <p>Nuestro objetivo primordial es asesorar a nuestros clientes para mejorar la gestión de su empresa y rentabilizar su producción, haciéndola más viable y competitiva. Este resultado se consigue gracias a la confianza y seriedad que se transmite entre clientes y asesores. La obtención de beneficios es el valor añadido que precederá a la aplicación de estos nuevos criterios de gestión empresarial. 
-
-          En MC Invest Asesoría & Consultoría ofrecemos servicios de alto valor añadido que posibiliten una notable mejora de la imagen de su empresa. Destacando como áreas de trabajo las relacionadas a continuación, por su necesaria implementación en una empresa que tiene en cuenta aspectos presentes y futuros de la gestión empresarial:</p>
-          <ul>
-            <li>Optimizar los costes laborales internos.</li>
-            <li>Contar con una planificación contable y fiscal personalizada.</li>
-            <li>Incrementar la eficiencia de la gestión administrativa. </li>
-            <li>Adaptar los productos financieros a la empresa.</li>
-            <li>Reducir el nivel de impagados con un sistema adecuado de prevención y gestión. </li>
-            <li>La aplicación de la Certificación de Calidad.</li>
-            <li>Acomodar la Gestión del Conocimiento, según el perfil laboral idóneo.</li>
-            <li>Estudiar y valorar la prospección empresarial a corto y largo plazo.</li>
-            <li>Identificar la marca personal como valor intrínseco del trabajador.</li>
-            <li>Desarrollar la marca empresarial como visión externa de la empresa.</li>
-            <li>Además ofrecemos a las personas físicas, la posibilidad de contratar y renegociar servicios con bancos y compañías de seguros, para obtener las mejores condiciones y precios del mercado.</li>
-          </ul>
-        </div>
+        <h2>🎯 Nuestra Misión</h2>
+        <p>Nuestro objetivo primordial es asesorar a nuestros clientes para mejorar la gestión de su empresa y rentabilizar su producción, haciéndola más viable y competitiva. Este resultado se consigue gracias a la confianza y seriedad que se transmite entre clientes y asesores. La obtención de beneficios es el valor añadido que precederá a la aplicación de estos nuevos criterios de gestión empresarial. En MC Invest Asesoría & Consultoría ofrecemos servicios de alto valor añadido que posibiliten una notable mejora de la imagen de su empresa. Destacando como áreas de trabajo las relacionadas a continuación, por su necesaria implementación en una empresa que tiene en cuenta aspectos presentes y futuros de la gestión empresarial:</p>
+        <ul>
+          <li>✔️Optimizar los costes laborales internos.</li>
+          <li>✔️Contar con una planificación contable y fiscal personalizada.</li>
+          <li>✔️Incrementar la eficiencia de la gestión administrativa.</li>
+          <li>✔️Adaptar los productos financieros a la empresa.</li>
+          <li>✔️Reducir el nivel de impagados con un sistema adecuado de prevención y gestión.</li>
+          <li>✔️La aplicación de la Certificación de Calidad.</li>
+          <li>✔️Acomodar la Gestión del Conocimiento, según el perfil laboral idóneo.</li>
+          <li>✔️Estudiar y valorar la prospección empresarial a corto y largo plazo.</li>
+          <li>✔️Identificar la marca personal como valor intrínseco del trabajador.</li>
+          <li>✔️Desarrollar la marca empresarial como visión externa de la empresa.</li>
+        </ul>
+        <p>Además, ofrecemos a las personas físicas la posibilidad de contratar y renegociar servicios con bancos y compañías de seguros, para obtener las mejores condiciones y precios del mercado.</p>
+      </div>
     </section>
 
     <section id="services" class="section">
       <div class="container">
-        <h2>Nuestros Servicios</h2>
+        <h2>🛠️ Nuestros Servicios</h2>
         <p>Ofrecemos una variedad de servicios adaptados a las necesidades de nuestros clientes: consultoría financiera, asesoría legal, gestión de proyectos y más.</p>
         <a href="servicios.html" class="button">Descubre Más</a>
       </div>
@@ -217,22 +257,23 @@
 
     <section id="values" class="section">
       <div class="container">
-        <h2>Valores que Nos Guián</h2>
-        <p>Nos comprometemos a la ética, la transparencia y el servicio al cliente en cada proyecto que emprendemos.</p>
+        <h2>💼 Valores que Nos Guián</h2>
+        <p>Nos comprometemos a la ética, transparencia y servicio al cliente en cada proyecto.</p>
       </div>
     </section>
 
     <section id="testimonials" class="section">
       <div class="container">
-        <h2>Lo Que Dicen Nuestros Clientes</h2>
+        <h2>💬 Lo Que Dicen Nuestros Clientes</h2>
         <p>"MC Invest transformó nuestra manera de trabajar, aumentando significativamente nuestra eficiencia." - Cliente Satisfecho</p>
       </div>
     </section>
 
     <section id="contact" class="section">
       <div class="container">
-        <h2>Contáctanos</h2>
-        <p>¿Tienes preguntas? ¡Estamos aquí para ayudarte! <a href="contacto.html" class="button">Contáctanos</a></p>
+        <h2>📞 Contáctanos</h2>
+        <p>¿Tienes preguntas? ¡Estamos aquí para ayudarte!</p>
+        <a href="contacto.html" class="button">Contáctanos</a>
       </div>
     </section>
   </main>
@@ -242,6 +283,5 @@
       <p>© 2024 MC Invest Asesoría & Consultoría. Todos los derechos reservados.</p>
     </div>
   </footer>
-  
 </body>
 </html>
